@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux'
+import {addProfil} from "../../actions/CoachAction"
 
 class AllInfo extends Component {
     back = e => {
@@ -6,27 +8,30 @@ class AllInfo extends Component {
         this.props.prevStep();
     }
     render(){
-        const { firstname, lastname, age, email, phonenumber,ville,Specialite,presentation,image , video , tarifs ,id  } = this.props;
+        const { FirstName, LastName, Age, Email, PhoneNumber, Specialite, presentation, Ville, Image, Video, Tarifs } = this.props;
         return(
             <>
                 <h2> Profil Coach </h2>
-                First Name: <b>{firstname}</b><br />
-                Last Name: <b>{lastname}</b><br />
-                age: <b>{age}</b> <br/>
-                email: <b>{email}</b> <br/>
-                phonenumber: <b>{phonenumber}</b> <br/>
-                ville: <b>{ville}</b><br />
+                First Name: <b>{FirstName}</b><br />
+                Last Name: <b>{LastName}</b><br />
+                age: <b>{Age}</b> <br/>
+                email: <b>{Email}</b> <br/>
+                phonenumber: <b>{PhoneNumber}</b> <br/>
+                ville: <b>{Ville}</b><br />
                 Specialite: <b>{Specialite}</b><br />
                 presentation: <b>{presentation}</b><br />
-                image: <b>{image}</b><br />
-                video: <b>{video}</b><br />
-                tarifs: <b>{tarifs}</b><br />
+                image: <b>{Image}</b><br />
+                video: <b>{Video}</b><br />
+                tarifs: <b>{Tarifs}</b><br />
                 <button className="Back" onClick={this.back}>
                     « Back
+                </button>
+                <button className="Next" onClick={() => this.props.addProfil({ FirstName, LastName, Age, Email, PhoneNumber, Specialite, presentation, Ville, Image, Video, Tarifs })}>
+                    Add
                 </button>
             </>
         );
     }
 }
 
-export default AllInfo;
+export default connect(null, {addProfil})(AllInfo);

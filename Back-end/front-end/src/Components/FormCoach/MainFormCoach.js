@@ -11,18 +11,18 @@ class StepForm extends Component {
         step: 1,
 
         //step1
-        firstname: '',
-        lastname: '',
-        age: '',
-        email: '',
-        phonenumber: '',
-        ville: '',
+        FirstName: '',
+        LastName: '',
+        Age: '',
+        Email: '',
+        PhoneNumber: '',
+        Ville: '',
         //step2
         Specialite: '',
         presentation: '',
-        image: '',
-        video: '',
-        tarifs: '',
+        Image: '',
+        Video: '',
+        Tarifs: '',
     }
 
     nextStep = () => {
@@ -46,16 +46,16 @@ class StepForm extends Component {
 
 
     showstep = () => {
-        const { step, firstname, lastname, age, email, phonenumber, ville, Specialite, presentation, image, video, tarifs, id } = this.state;
+        const { step, FirstName, LastName, Age, Email, PhoneNumber, Ville, Specialite, presentation, Image, Video, Tarifs, id } = this.state;
         if (step === 1)
             return (<PersonelInfoCoach
                 nextStep={this.nextStep}
                 handleChange={this.handleChange}
-                firstname={firstname}
-                age={age}
-                email={email}
-                phonenumber={phonenumber}
-                ville={ville}
+                FirstName={FirstName}
+                Age={Age}
+                Email={Email}
+                PhoneNumber={PhoneNumber}
+                Ville={Ville}
             />);
 
 
@@ -66,24 +66,24 @@ class StepForm extends Component {
                 handleChange={this.handleChange}
                 Specialite={Specialite}
                 presentation={presentation}
-                image={image}
-                video={video}
-                tarifs={tarifs}
+                Image={Image}
+                Video={Video}
+                Tarifs={Tarifs}
                 id={id}
             />);
         if (step === 3)
             return (<AllInfo
-                firstname={firstname}
-                lastname={lastname}
-                age={age}
-                email={email}
-                phonenumber={phonenumber}
-                ville={ville}
+                FirstName={FirstName}
+                LastName={LastName}
+                Age={Age}
+                Email={Email}
+                PhoneNumber={PhoneNumber}
+                Ville={Ville}
                 Specialite={Specialite}
                 presentation={presentation}
-                image={image}
-                video={video}
-                tarifs={tarifs}
+                Image={Image}
+                Video={Video}
+                Tarifs={Tarifs}
                 id={id}
                 prevStep={this.prevStep}
             />);

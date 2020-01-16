@@ -13,7 +13,7 @@ class Coachdetail extends Component {
     }
 
     render(){
-        const { Specialite, presentation, image, video , tarifs , handleChange } = this.props;
+        const { Specialite, presentation, Image, Video , Tarifs , handleChange } = this.props;
         return(
             <>
                 <h2>Enter your  information:</h2>
@@ -37,30 +37,29 @@ class Coachdetail extends Component {
                 </label>
                 <label>
                     <input 
-                        type="image"
-                        src="fichier.png" 
-                        name="clicImage"
-                        value={image}
-                        onChange={handleChange('image')}
-                        placeholder="image"
-                    />
-                </label>
-                <label>
-                    <video 
-                        type="video"
-                        name="video"
-                        value={video}
-                        onChange={handleChange('video')}
-                        placeholder="video"
+                        type="text"
+                        name="Image"
+                        value={Image}
+                        onChange={handleChange('Image')}
+                        placeholder="Image"
                     />
                 </label>
                 <label>
                     <input 
-                        type="tarifs"
-                        name="tarifs"
-                        value={tarifs}
-                        onChange={handleChange('tarifs')}
-                        placeholder="tarifs"
+                        type="text"
+                        name="Video"
+                        value={Video}
+                        onChange={handleChange('Video')}
+                        placeholder="Video"
+                    />
+                </label>
+                <label>
+                    <input 
+                        type="Tarifs"
+                        name="Tarifs"
+                        value={Tarifs}
+                        onChange={handleChange('Tarifs')}
+                        placeholder="Tarifs"
                     />
                 </label>
                 <button className="Back" onClick={this.back}>

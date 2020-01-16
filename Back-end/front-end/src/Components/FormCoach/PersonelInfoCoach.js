@@ -7,62 +7,62 @@ class PersonalInfo extends Component{
     }
 
     render(){
-        const { firstname, lastname, age, email, phonenumber ,ville , handleChange } = this.props;
+        const { FirstName, LastName, Age, Email, PhoneNumber ,Ville , handleChange } = this.props;
         return(
             <>
                 <h2>Enter your personal information:</h2>
                 <label>
                     <input 
                         type="text"
-                        name="firstname"
-                        value={firstname}
+                        name="FirstName"
+                        value={FirstName}
                         placeholder="First Name"
-                        onChange={handleChange('firstname')}
+                        onChange={handleChange('FirstName')}
                     />
                 </label>
                 <label>
                     <input 
                         type="text"
-                        name="lastname"
-                        value={lastname}
+                        name="LastName"
+                        value={LastName}
                         placeholder="Last Name"
-                        onChange={handleChange('lastname')}
+                        onChange={handleChange('LastName')}
                     />
                 </label>
                 <label>
                     <input 
                         type="text"
-                        name="age"
-                        value={age}
-                        placeholder="age"
-                        onChange={handleChange('age')}
+                        name="Age"
+                        value={Age}
+                        placeholder="Age"
+                        onChange={handleChange('Age')}
                     />
                 </label>
                 <label>
                     <input 
                         type="text"
-                        name="email"
-                        value={email}
-                        placeholder="email"
-                        onChange={handleChange('email')}
+                        name="Email"
+                        value={Email}
+                        placeholder="Email"
+                        onChange={handleChange('Email')}
                     />
                 </label>
                 <label>
                     <input 
                         type="number"
-                        name="phonenumber"
-                        value={phonenumber}
-                        placeholder="phonenumber"
-                        onChange={handleChange('phonenumber')}
+                        name="PhoneNumber"
+                        value={PhoneNumber}
+                        placeholder="PhoneNumber"
+                        onChange={handleChange('PhoneNumber')}
                     />
                 </label>
                 <label>
                     <input 
                         type="text"
-                        name="ville"
-                        value={ville}
-                        placeholder="ville"
-                        onChange={handleChange('ville')}
+                        name="Ville"
+                        value={Ville}
+                        placeholder="Ville"
+                        onChange={handleChange('Ville')}
                     />
                 </label>
                 <button className="Next" onClick={this.continue}>

@@ -53,10 +53,9 @@ const CoachSchema = mongoose.Schema({
         type: Date,
         default: Date.now
     }
-
 })
 
 // exporter coach.js 
 
 
-module.exports = mongoose.model('coach', CoachSchema)
+module.exports = mongoose.model('profil', CoachSchema)

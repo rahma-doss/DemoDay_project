@@ -47,9 +47,9 @@ class Navbar extends React.Component {
                                     </MDBNavItem> <MDBNavItem>
                                         <MDBNavLink to="/Blog"><strong>Blog</strong></MDBNavLink>
                                     </MDBNavItem>
-                                    {/* <MDBNavItem>
-                                        <MDBNavLink to="/register"><strong>Connexion</strong></MDBNavLink>
-                                    </MDBNavItem> */}
+                                    <MDBNavItem>
+                                        <MDBNavLink to="/form"><strong>Form Coach</strong></MDBNavLink>
+                                    </MDBNavItem>
                                     
                                     <MDBNavItem>
                                         <MDBNavLink onClick={() => this.props.logout()} to="/"><strong>logout</strong></MDBNavLink>

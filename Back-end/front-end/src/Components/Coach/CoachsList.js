@@ -2,7 +2,7 @@ import { connect } from "react-redux";
 import CoachCard from './CoachCard';
 import SpecialiteSearch from './SpecialiteSearch';
 import './stylecoach.css'
-import {getCoachs} from '../../actions/CoachAction';
+import {getCoachs, getProfils} from '../../actions/CoachAction';
 import React, { Component } from 'react';
 
 
@@ -10,6 +10,7 @@ class CoachList extends Component {
     
     componentDidMount() {
         this.props.getCoachs()
+        // this.props.getProfils()
         console.log(this.props)
     }
 
@@ -45,7 +46,7 @@ const mapStateToProps = state => {
     };
 };
 
-export default connect(mapStateToProps, {getCoachs})(CoachList);
+export default connect(mapStateToProps, {getCoachs, getProfils})(CoachList);
 
 
 

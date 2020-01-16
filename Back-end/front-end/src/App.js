@@ -22,6 +22,7 @@ import CommentsForm from './Components/Coach/CommentsForm';
 import BlogComponent from './Components/BlogsComponent/BlogComponent';
 import Article from './Components/Description_Blog/Article'
 import Step3 from './Components/Formulaire/Step3'
+import MainFormCoach from './Components/FormCoach/MainFormCoach'
 
 if (localStorage.token) {
   setAuthToken(localStorage.token)
@@ -52,6 +53,7 @@ class App extends React.Component {
           <Route exact path='/Step3' component={Step3}  />
           <Route path="/article/:id" component={Article} />
           <Route path="/Connexion" component={Connexion} />
+          <Route exact path="/form" component={MainFormCoach} />
         </Switch>
 
 
