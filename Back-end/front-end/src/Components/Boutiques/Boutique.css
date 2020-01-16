@@ -1,0 +1,12 @@
+.image_boutique{
+    background-image: url(https://cdn.shopify.com/s/files/1/0849/5778/collections/gear-bundles_1512x1512.png?v=1523871941) ;
+height: 70vh;
+}
+
+.Navbarssss{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 22;
+
+}

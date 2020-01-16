@@ -1,0 +1,96 @@
+.step2 {
+    background-image: url(https://freeletics-assets.imgix.net/images/buying-page-campaigns/ny2020-ttn-male-desktop.jpg);
+    height: 160vh;
+}
+.Step3 {
+    background-image: url(https://freeletics-assets.imgix.net/images/buying-page-campaigns/ny2020-ttn-male-desktop.jpg);
+    height: 160vh;
+}
+.Form {
+    background-image: url(https://freeletics-assets.imgix.net/images/buying-page-campaigns/ny2020-ttn-male-desktop.jpg);
+    height: 160vh;
+}
+
+.button{
+    height: 7rem;
+}
+.mdbcard{
+    margin: auto;
+}
+._3fzkTjcGza_h
+{border-radius: 4px;
+font-weight: 700;
+background-color: #353535;
+transition: background-color .15s;
+cursor: pointer;}
+
+._2eZSOO7nUJjF {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+._3fzkTjcGza_h svg {
+    color: #8d8d8d;}
+
+    ._2eZSOO7nUJjF svg {
+        font-size: 24px;
+        margin-right: 16px;
+        width: 34px;
+        flex-shrink: 0;
+    }
+
+    ._2QxVQ_ylS9ec rect:first-of-type {
+        fill: #fff;
+    }
+    .sTfISOrRbYI1 rect:nth-of-type(-n+2) {
+        fill: #fff;
+    }
+    .JZ2CRM2GvggY rect:nth-of-type(-n+3) {
+        fill: #fff;
+    }
+    ._3EtaSr1aDvEf rect:nth-of-type(-n+4) {
+        fill: #fff;
+    }  
+    ._1eaai9KHVd_n rect:nth-of-type(-n+5) {
+        fill: #fff;
+    }
+    .-h4sLznNgBrN rect {
+        fill: #fff;
+    }
+     /* main {
+            padding: 16px 16px 32px;
+            width: 50%;
+            height: 50%;
+        }*/
+        header {
+            margin-bottom: 48px;
+            padding: 0 8px;
+        }
+        ._2IgjXqXGLysy {
+            border-color: #357df4;
+        } 
+        
+        
+        .card{
+            width: 30%;
+            margin: auto;
+            background-color: #000000c7;
+            margin-top: 2%;
+        }
+        .header{
+            color: white;
+        }
+        .header_p{
+            color: gray;
+        }
+        input{
+            color: white;
+        }
+
+        .validation_button{
+    width: 100%;
+    height: 42px;
+    margin-top: 8px;
+    background-color: #003EC9;
+    color: white;
+        }
