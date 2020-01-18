@@ -53,14 +53,14 @@ class Login extends React.Component{
     render(){
         const smallStyle = { fontSize: '0.8rem'}
         return(
-        <div>
+        <div className='login'>
              <Navbar bg={true}/>
-            <h1>Login</h1>
+            {/* <h1>Login</h1>
             <div className='container'>
             <input name='email' type='text' onChange={this.handleChange} placeholder='Your Email '  />
             <input name='password' type='password' onChange={this.handleChange} placeholder='Your password '  />
             </div>
-            <button  onClick={this.loginNow} className='btn btn-info'>Login</button>
+            <button  onClick={this.loginNow} className='btn btn-info'>Login</button> */}
             <MDBRow >
           <MDBCol md="9" lg="7" xl="5" className="mx-auto mt-3" >
             <MDBCard style={{width:'70%'}}>
@@ -68,18 +68,10 @@ class Login extends React.Component{
                 <div className="text-center">
                   <h3 className="dark-grey-text mb-5"><strong>Sign in</strong></h3>
                 </div>
-                <MDBInput name='firstname' type='text' onChange={this.handleChange} placeholder='Your firstname '/>
-                <MDBInput name='lastname' type='text' onChange={this.handleChange} placeholder='Your lastname '/>
-                <MDBInput name='email' type='text' onChange={this.handleChange} placeholder='Your email '/>
-                <MDBInput name='password' type='password' onChange={this.handleChange} placeholder='Your password ' />
+                <MDBInput name='email' type='text' onChange={this.handleChange} label='Your email '/>
+                <MDBInput name='password' type='password' onChange={this.handleChange} label='Your password ' />
                 <div className="text-center pt-3 mb-3">
-                  <MDBBtn onClick={this.RegisterNow}  type="button" gradient="blue" rounded className="btn-block z-depth-1a">Sign in</MDBBtn>
-                </div>
-                <p className="dark-grey-text text-right d-flex justify-content-center mb-3 pt-2" style={smallStyle}> or Sign up with:</p>
-                <div className="row my-3 d-flex justify-content-center">
-                  <MDBBtn type="button" color="white" rounded className="mr-md-3 z-depth-1a"><MDBIcon fab icon="facebook-f" className="blue-text text-center" /></MDBBtn>
-                  <MDBBtn type="button" color="white" rounded className="mr-md-3 z-depth-1a"><MDBIcon fab icon="twitter" className="blue-text" /></MDBBtn>
-                  <MDBBtn type="button" color="white" rounded className="z-depth-1a"><MDBIcon fab icon="google-plus-g" className="blue-text" /></MDBBtn>
+                  <MDBBtn onClick={this.loginNow}  type="button" gradient="blue" rounded className="btn-block z-depth-1a">Sign in</MDBBtn>
                 </div>
               </MDBCardBody>
               

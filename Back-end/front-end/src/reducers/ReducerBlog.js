@@ -3,7 +3,7 @@ import uuid from 'uuid'
 
 let blogs = [
     {
-        picture: "https://www.nafeusemagazine.com/photo/art/default/23342872-25664142.jpg?v=1530200825",
+        picture: "https://images.contentstack.io/v3/assets/blt45c082eaf9747747/blte08cf8c78bf2bd33/5e17532f78cb3402adffe5e7/Alexandra02727-1_copy.JPG?format=pjpg&auto=webp&fit=crop&quality=76&width=1232&height=496",
         title: " Les bienfaits du sport sur la santé",
         Jour:'11',
         mois:'octobre',
@@ -27,7 +27,7 @@ let blogs = [
         
     },
     {
-        picture: "https://i.ytimg.com/vi/myDccluDzPo/maxresdefault.jpg",
+        picture: "https://images.contentstack.io/v3/assets/blt45c082eaf9747747/blte18efe6d960ce84f/5de0b824983beb043e52d6d5/Hot_meal_header_copy.jpg?format=pjpg&auto=webp&fit=crop&quality=76&width=1232&height=496",
         title: "Comment calculer ses besoins énergétiques ? ",
         date: "2019-09-04", 
         intro:"Besoins énergétiques (BE) = Métabolisme de base (MB) x facteur d’activité (FA)   ",
@@ -36,17 +36,34 @@ let blogs = [
         generes:"Sport & Santé",
     },
     {
-        picture: "http://www.salondessolidarites.org/wp-content/uploads/2018/04/perdre-du-poids.jpg",
-        title: "POUR PERDRE DU POIDS ? gérer mieux le pic de glycémie",
+        picture: "https://images.contentstack.io/v3/assets/blt45c082eaf9747747/bltf31343ffbe670a37/5de0b807eb97677b3a9d659d/Flo_meta.jpg?format=pjpg&auto=webp&fit=crop&quality=76&width=1232&height=496",
+        title: "5 astuces pour stimuler votre métabolisme",
         date: "2008-07-16",
-        intro:"On entend souvent dire que les glucides font grossir. En réalité, ce n'est pas toujours vrai...",
+        intro:"En tout premier lieu, le métabolisme représente l’ensemble des processus qui régulent vos apports et vos dépenses énergétiques, et le taux métabolique n’est autre que la vitesse de fonctionnement de ces processus, c’est-à-dire le nombre de calories brûlées en un temps donné.",
         id: uuid(),
-        description: "Quand \n on consomme des aliments contenant des glucides, les sucres qu'ils contiennent sont stockés soit sous forme de réserves musculaires (qui ne font pas grossir), soit sous forme de graisses. Cela dépend de l'intensité du pic de glycémie qui fait suite à la consommation de l'aliment glucidique. \r Plus il est élevé, plus l'organisme va stocker de graisses. Pour éviter les pics de glycémie, c'est simple, il faut savoir choisir les bons glucides et quand et comment les consommer. Saviez-vous par exemple qu'une pâtisserie consommée loin des repas n'aura pas du tout le même effet sur l'organisme que si elle est consommée à la fin d'un repas ou juste après une activité sportive ? De même, consommer des pâtes avec des légumes fait moins grossir que des pâtes seules. Ou encore, il vaut mieux manger une pomme entière que boire son jus seul..",
+        description: `N° 1 : Le HIIT
+        L’entraînement par intervalles de haute intensité (HIIT) est un composant essentiel de l’expérience Freeletics. Et à juste titre ! En plus d’être une activité cardiovasculaire et anaérobie très intense, le HIIT déclenche également l’effet EPOC, qui signifie « Excess Post-exercise Oxygen Consumption » en anglais, et correspond à l’augmentation du taux de consommation d’oxygène à l’issue d’un entraînement HIIT. Qu’est-ce que cela signifie ? Eh bien, la nature éprouvante du HIIT contraint votre corps à tirer parti d’un grand nombre de processus métaboliques et énergétiques. Donc, après l’entraînement, alors que vous vous reposez, votre corps s’efforce toujours de rétablir son équilibre et, par la même occasion, continue de brûler des calories.
+        
+        N° 2 : Le renforcement musculaire
+        Alors que le HIIT vous fait profiter des bienfaits de l’EPOC, le renforcement musculaire vous permet quant à lui de brûler une grande quantité de calories et, au fil du temps, d’améliorer votre composition corporelle. Pratiquer régulièrement le renforcement musculaire permet aux muscles sollicités de brûler davantage de calories lorsqu’ils sont au repos. Et plus vous vous entraînerez, plus cet effet se renforcera. Si votre objectif est de perdre du poids et de vous muscler, le renforcement musculaire devrait faire partie de votre routine d’entraînement et ne devrait pas être négligé.
+        
+        N° 3 : Davantage de protéines
+        Aussi surprenant que cela puisse paraître, il existe effectivement un moyen de brûler davantage de calories en mangeant plus : il suffit pour cela de consommer des protéines ! En effet, lorsque nous mangeons des protéines, notre organisme est contraint d’utiliser de l’énergie pour aller chercher tous les acides aminés qu’elles renferment. C’est ce que l’on appelle « l’effet thermique des aliments » (ou TEF pour « thermic effect of food », en anglais), et celui des protéines est plus important que celui d’autres macronutriments, tels que les glucides, réduisant ainsi d’autant leur apport en calories.
+        
+        Par ailleurs, consommer plus de protéines vous aidera à produire davantage de masse musculaire et à améliorer votre composition corporelle tout en diminuant votre appétit.
+        
+        N° 4 : Boire plus d’eau ou de thé vert
+        Une autre manière de stimuler votre métabolisme consiste à éviter toutes les calories liquides dites « vides », telles que celles des sodas. Préférez plutôt les boissons sans calories comme l’eau ou le thé !
+        
+        Les boissons stimulantes, telles que le thé vert ou le café, sont également connues pour booster le métabolisme tout en réduisant l’appétit. Cependant, assurez-vous de ne jamais boire de thé ou de café tard dans la journée, car cela pourrait vous empêcher de dormir, ce qui serait mauvais pour votre métabolisme.
+        
+        N° 5 : La NEAT
+        Pour activer votre métabolisme, il existe également un moyen moins évident (mais néanmoins efficace) qui consiste à augmenter votre NEAT, ou « Non-Exercise Activity Thermogenesis » en anglais, ce qui signifie « thermogenèse liée aux activités non sportives ». Cela correspond à tous les mouvements qui vous font brûler des calories, mais qui ne sont pas considérés comme de l’exercice physique en soi. Un exemple simple du quotidien serait d’emprunter les escaliers plutôt que l’ascenseur. La NEAT est très efficace pour stimuler votre métabolisme puisque, contrairement à l’entraînement, il est possible d’y recourir tout au long de la journée.`,
         generes:"Nutrition ",
         
     },
     {
-        picture: "https://static.wixstatic.com/media/d2f9e7aeaf354863844dcbada87ee98b.jpg/v1/fill/w_542,h_330,al_c,q_80,usm_0.66_1.00_0.01/CrossFit%20Class.webp",
+        picture: "https://images.contentstack.io/v3/assets/blt45c082eaf9747747/bltb0fc425dfc160f4f/5de0b8071973b50217e81177/building_to_a_strict_pullup_header.jpg?format=pjpg&auto=webp&fit=crop&quality=76&width=1232&height=496",
         title: "CROSSFIT : LES EFFETS CARDIOVASCULAIRES",
         date: "2019-12-01",
         intro:"Le CrossFit est une méthode de conditionnement physique, inspiré des camps d’entraînement militaire, à la mode. Il fait partie des activités en plein développement à l’image du cross-training, du circuit-training… Il combine des activités d’exercices fractionnés à haute intensité",        id: uuid(),

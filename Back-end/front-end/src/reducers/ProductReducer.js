@@ -2,28 +2,28 @@ import { SEARCH_PRODUCT } from "../actions/types";
 const initState = {
     items: [
         {
-            id:1,
+            id:1, 
             title:  'Barre de traction',
-            description: "",
+            description: `La barre doit être installée correctement afin de garantir la possibilité de s’entraîner sans risque. Par conséquent, nous recommandons de procéder à l’installation au moyen des tasseaux en métal avec vis.`,
             price:30,
             image: "https://cdn.shopify.com/s/files/1/0849/5778/products/freeletics-8264fin_720x.jpg?v=1563897414"
         },
         {
             id:2,
             title:'Resistance band blue',
-            description: "",
+            description: "`Nos bandes de résistance vous permettent de travailler la technique de vos Pullups et d'améliorer votre entraînement au poids du corps. La Resistance Band Black offre une résistance inférieure et sied davantage aux Athlètes Libres expérimentés.`",
             price:15,
             image: "https://cdn.shopify.com/s/files/1/0849/5778/products/Resistance_Band_Blue_1_1_540x.jpg?v=1551889718"},
         {
             id:3,
             title:'Tapis ',
-            description: "",
+            description: `Size : 130cm length x 60cm width.Le No Excuses Workout Mat idéal pour tous les Athlètes ! Grâce à son épaisseur de 7 mm, le tapis ne vous imposera pas de limites.`,
             price:18,
             image: "https://cdn.shopify.com/s/files/1/0849/5778/products/freeletics-8280fin_720x.jpg?v=1563897414"},
         {
             id:4,
             title:'Cold guard gloves',
-            description: "", 
+            description: `Prêt pour votre prochain Metis dans le froid ? Avec nos Cold Guard Gloves d'épaisseur moyenne, il n'y a aucune raison que ce ne soit pas le cas. Avec, à l'intérieur, une matière brossée qui draine l'humidité, non seulement vos doigts restent au chaud lorsque vous vous entraînez, mais ils bénéficient aussi de la douceur et du confort de gants idéals pour vos séances d'entraînement en hiver. Pas d'excuses !`, 
             price:24,
             image:"https://cdn.shopify.com/s/files/1/0849/5778/products/Freeletics_Wear_11_919ca11e-5d3e-4a8a-b8fd-c04d5b1436ed_540x.jpg?v=1511363400"},
         {
@@ -41,13 +41,15 @@ const initState = {
             {
                 id:7,
                 title:'TRAMPOLINE ESSENTIAL 100 DOMYOS',
-                description: "",
+                description: `Notre équipe de conception vous propose ce trampoline Essential 100 pour entretenir votre forme et votre tonicité à la maison.
+                Le trampoline d'intérieur est une activité ludique et complète ! Il vous permet de combiner travail cardio respiratoire, tonification et équilibre !`,
                 price:160,
                 image: "https://contents.mediadecathlon.com/p734954/k$1556f1664eb7b8da040955d0ca8f9d94/trampoline-essential-100-domyos.jpg?&f=800x800"},
                 {
                     id:8,
-                    title:'',
-                    description: "",
+                    title:'Rameur 120',
+                    description: `Nos concepteurs ont mis au point ce rameur 120 pour vos séances de cardio training à la maison. Utilisez le jusqu'à 2 fois par semaine.
+                    Vous souhaitez brûler des calories et travailler l'ensemble de votre corps? Le rameur 120 est idéal pour vous accompagner lors de vos séances de cardio training à la maison.`,
                     price:897,
                     image: "https://contents.mediadecathlon.com/p1544512/k$f496370823e289942cd5f4440ba73418/rameur-120.jpg?&f=800x800"}
     

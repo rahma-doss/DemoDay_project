@@ -80,7 +80,7 @@ class Product extends Component {
                         <div className="right">
                             <div className="done"><i className="material-icons">done</i></div>
                             <div className="details">
-                                <h4>{product.title}</h4>
+                                <h6>{product.title}</h6>
                                 <p >Added to your cart</p>
                             </div>
                             <div onClick={() => this.remove(product.id)} className="remove"><i className="material-icons">clear</i></div>
@@ -91,7 +91,7 @@ class Product extends Component {
                     <div className="icon"><i className="material-icons">info_outline</i></div>
                     <div className="contents">
                         <table>
-
+                        {product.description}
                         </table>
                     </div>
                 </div>

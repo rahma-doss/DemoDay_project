@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import {addProfil} from "../../actions/CoachAction"
+import Navbar from '../Navbar/Navbar'
+import { MDBRow, MDBCol, MDBInput, MDBBtn, MDBCard, MDBCardBody, MDBModalFooter, MDBIcon } from 'mdbreact';
+
 
 class AllInfo extends Component {
     back = e => {
@@ -9,8 +12,11 @@ class AllInfo extends Component {
     }
     render(){
         const { FirstName, LastName, Age, Email, PhoneNumber, Specialite, presentation, Ville, Image, Video, Tarifs } = this.props;
-        return(
-            <>
+        return( 
+            <div>
+            {/* <Navbar bg={true}/> */}
+            < div className='personelinfo'>
+              
                 <h2> Profil Coach </h2>
                 First Name: <b>{FirstName}</b><br />
                 Last Name: <b>{LastName}</b><br />
@@ -29,7 +35,9 @@ class AllInfo extends Component {
                 <button className="Next" onClick={() => this.props.addProfil({ FirstName, LastName, Age, Email, PhoneNumber, Specialite, presentation, Ville, Image, Video, Tarifs })}>
                     Add
                 </button>
-            </>
+            </div>
+            
+            </div>
         );
     }
 }

@@ -1,8 +1,9 @@
 import React from 'react'
 import './ComponentStyle.css'
 import Carousel from './Carousel'
-import Capture from '../images/Capture.PNG'
+import CaptureConnexion from '../images/CaptureConnexion.PNG'
 import { Link } from 'react-router-dom';
+
 
 
 class Main extends React.Component {
@@ -16,7 +17,7 @@ class Main extends React.Component {
                 </div>
                 <div className='phone'>
                     <img className='phone_img' src='https://www.stickpng.com/assets/images/5a4244f818ce7e85ae60ddef.png' />
-            <img className='responsive' src={Capture} />
+            <img className='responsive' src={CaptureConnexion} />
                 </div>
             </div>
 
@@ -31,7 +32,7 @@ class Main extends React.Component {
                 </div>
             </div>
 
-
+           
         </main>
 
         )

@@ -1,5 +1,6 @@
 import React from 'react'
 import './ComponentStyle.css'
+import Spec from './CarouselSpec'
 
 class Section2 extends React.Component {
     render() {
@@ -25,21 +26,20 @@ class Section2 extends React.Component {
             <div className="_3RJfXWFjUmAw">
                 <div className="rZz0PEwmg2zd">
                 <h4 className="_31SfAgBLzDh7 p0wWBHICF61Y">
-                <span>Appli Nutrition</span>
+                <span style={{color:'gray'}} > <strong>Un programme du Nutrition</strong></span>
             </h4>
-            <h2 className="ZFQJ9MkfxyL9 J_IBmz-vbGJw _15sTZeI9BZG9">
-                <span>  Bénéficiez d'un accompagnement nutritionnel</span>
-            </h2>
+            <h1 className="ZFQJ9MkfxyL9 J_IBmz-vbGJw _15sTZeI9BZG9">
+                <span className='title_nutrition'>  Bénéficiez d'un <br/> accompagnement<br/>  nutritionnel</span>
+            </h1>
             </div>
             <p className="J_IBmz-vbGJw YYtSvAjdPzop">
-                <span>
-                Obtenez des programmes de repas personnalisés et idéals pour votre corps et vos objectifs. Pas de calcul de calories nécessaire.</span>
-            </p>
-            <a  type="button" className="_6y6Zv9Z9asx7 _3ZfLOUzvklHE _3gexunAKH78G" data-analytics-ga-interaction-code="GE-NAVI" data-analytics-ga-subcategory="cta" data-analytics-ga-attribute="cta_discover-nutrition">
-                <span> Découvrir l'appli Nutrition</span>
-            </a>
+                <span style={{color:'gray'}} > 
+                <strong>Obtenez des programmes de repas personnalisés et idéals pour votre corps et vos objectifs. Pas de calcul de calories nécessaire. </strong></span>
+                 </p>
+            
             </div>
             </div>
+        
             </section>
 
         )

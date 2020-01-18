@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './Description.css';
 import { connect } from 'react-redux';
 import { MDBBtn, MDBIcon, MDBNavLink } from "mdbreact";
+import Navbar from '../Navbar/Navbar'
 
 class Article extends Component {
     constructor(props) {
@@ -18,7 +19,11 @@ class Article extends Component {
 
     render() {
         return (
+            
+            <div>
+      
             <div className="blog shadow-lg p-3 mb-5 bg-white rounded d-flex ">
+                
                 <div className="custom-image">
                     <img className="img-des" src={this.state.picture} />
                 </div>
@@ -43,6 +48,8 @@ class Article extends Component {
                    
                 </div>
             </div>
+            </div>
+            
         )
     }
 }

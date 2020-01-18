@@ -1,19 +1,20 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { specialiteFilter} from '../../actions/SpecialiteAction';
+import { specialiteFilter } from '../../actions/SpecialiteAction';
+import './Coachs.css'
 
 const SpecialiteSearch = ({ value, onChangeText }) => {
     return (
-        <div className="container">
-            
-            <div className="name-filter">
-                <input className="name-filter-text"
+        <nav className="navbar_search"  >
+            <form className="form-inline my-2 my-lg-0 ml-auto">
+                <input className="form-control" className="name-filter-text"
                     type="text" placeholder="Search..."
-                    onChange={event => onChangeText(event.target.value)}
-                />
+                    onChange={event => onChangeText(event.target.value)}  style={{ width: '50%' }}/>
+                <button className="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit"><i className="fa fa-search"></i></button>
+            </form>
 
-            </div>
-        </div>
+
+        </nav>
     );
 }
 const mapStateToProp = (state) => {

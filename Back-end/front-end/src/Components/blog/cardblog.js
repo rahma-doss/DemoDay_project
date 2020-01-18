@@ -2,6 +2,7 @@ import React from 'react'
 import './coachblog.css';
 import Blog from './Blog';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 
 class CardBlog extends React.Component {
@@ -27,7 +28,7 @@ class CardBlog extends React.Component {
 
           <aside id="search-2" className="widget widget_search">
             <h1 className="widget-title">Vous ne trouvez pas la réponse à votre question ?</h1>
-            <form role="search" method="get" className="search-form" action="http://www.coachclub.com/hp/">
+            <form role="search" method="get" className="search-form" >
               <label>
                 <span className="screen-reader-text">Rechercher&nbsp;:</span>
                 <input type="search" className="search-field" placeholder="Recherche…" value="" name="s" title="Rechercher&nbsp;:" />
@@ -39,19 +40,19 @@ class CardBlog extends React.Component {
             <h1 className="widget-title">Articles récents</h1>
             <ul>
               <li>
-                <a href="http://www.coachclub.com/hp/quest-ce-que-lafter-burn-effect/">Les bienfaits du sport sur la santé</a>
+                <Link to="/article/9f8fdf54-2bd9-4a2f-9ae3-ba859c71bcec">Les bienfaits du sport sur la santé</Link>
               </li>
               <li>
-                <a href="http://www.coachclub.com/hp/vous-avez-debute-un-programme-pour-perdre-du-poids-mais-vous-stagnez/">Des exercices pour se muscler et detendre le dos au travail</a>
+              <Link to="/article/:id">Des exercices pour se muscler et detendre le dos au travail</Link>
               </li>
               <li>
-                <a href="http://www.coachclub.com/hp/comment-rependre-efficacement-votre-entrainement-sportif/">Comment calculer ses besoins énergétiques ?</a>
+                <Link>Comment calculer ses besoins énergétiques ?</Link>
               </li>
               <li>
-                <a href="http://www.coachclub.com/hp/le-gainage-lincontournable-pour-muscler-ses-abdominaux/">POUR PERDRE DU POIDS ? gérer mieux le pic de glycémie</a>
+              <Link to="/article/:id">POUR PERDRE DU POIDS ? gérer mieux le pic de glycémie</Link>
               </li>
               <li>
-                <a href="http://www.coachclub.com/hp/tenue-de-sport-lululemon-look-sportif-canon/">CROSSFIT : LES EFFETS CARDIOVASCULAIRES</a>
+              <Link to="/article/:id">>CROSSFIT : LES EFFETS CARDIOVASCULAIRES</Link>
               </li>
             </ul>
           </aside>

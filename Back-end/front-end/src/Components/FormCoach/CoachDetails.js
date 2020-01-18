@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Navbar from '../Navbar/Navbar'
 
 class Coachdetail extends Component {
     continue = e => {
@@ -15,7 +15,10 @@ class Coachdetail extends Component {
     render(){
         const { Specialite, presentation, Image, Video , Tarifs , handleChange } = this.props;
         return(
-            <>
+            <div>
+            {/* <Navbar bg={true}/> */}
+            
+            <div className='personelinfo'>
                 <h2>Enter your  information:</h2>
                 <label>
                     <input 
@@ -68,7 +71,7 @@ class Coachdetail extends Component {
                 <button className="Next" onClick={this.continue}>
                     Next »
                 </button>
-            </>
+            </div></div>
         );
     }
 }

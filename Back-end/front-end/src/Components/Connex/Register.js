@@ -70,7 +70,7 @@ class Register extends React.Component {
             <MDBCard style={{width:'70%'}}>
               <MDBCardBody  className="mx-4">
                 <div className="text-center">
-                  <h3 className="dark-grey-text mb-5"><strong>Sign in</strong></h3>
+                  <h3 className="dark-grey-text mb-5"><strong>S'inscrire</strong></h3>
                 </div>
                 <MDBInput  label='Your name'  name='firstname' type='text' onChange={this.handleChange} />
                 <MDBInput name='lastname' type='text' onChange={this.handleChange} label='Your lastname '/>

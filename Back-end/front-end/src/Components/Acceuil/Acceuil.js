@@ -7,6 +7,7 @@ import {connect} from 'react-redux'
 import { loadUser } from '../../actions/AuthenAction';
 import { Link } from 'react-router-dom';
 import Spec from './CarouselSpec'
+import Activités from '../Activits/Activités'
 
 
 class Accueil extends React.Component {
@@ -42,7 +43,7 @@ class Accueil extends React.Component {
 
             <Main />
             <Section2/>
-            <Spec/>
+            <Activités/>/>
         </main>
         )
     }

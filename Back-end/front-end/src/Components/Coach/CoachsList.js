@@ -4,6 +4,7 @@ import SpecialiteSearch from './SpecialiteSearch';
 import './stylecoach.css'
 import {getCoachs, getProfils} from '../../actions/CoachAction';
 import React, { Component } from 'react';
+import Navbar from '../Navbar/Navbar'
 
 
 class CoachList extends Component {
@@ -18,6 +19,7 @@ class CoachList extends Component {
     render() {
         return ( 
             <div>
+                <Navbar bg={true}/>
                 <SpecialiteSearch />
                 <div class='row'>
                     <div class='col-md-12 text-center text-warning font-weight-boldheading  '>

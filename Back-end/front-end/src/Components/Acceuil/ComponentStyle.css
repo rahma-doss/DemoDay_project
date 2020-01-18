@@ -133,7 +133,7 @@ figure {
     position: relative;
 }  */
 
-.carousel img1{
+/* .carousel img1{
     width: 25%;
     z-index: 8;
     transition: opacity .4s;
@@ -150,7 +150,7 @@ figure {
     z-index:10;
      border-radius: 5%;
     margin-right: -5%;
-} 
+}  */
 .carousel{
     margin-left: 16%;
 
@@ -258,4 +258,10 @@ figure {
     margin-top: -99%;
     margin-left: 29%;
 
+}
+
+
+.title_nutrition{
+    font-family: fantasy;
+    font-size: 52px;
 }

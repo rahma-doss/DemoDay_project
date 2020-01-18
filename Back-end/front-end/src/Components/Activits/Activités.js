@@ -19,51 +19,39 @@ class Activités extends Component {
 
     render() {
         return (
-            <div>
-                <section id='' class='pt-small navMenu' >
-                    <div class='container'>
-                        <div class='row'>
-                            <div class='col-md-12 mb-medium text-center heading animated-invisible animated fadeInUp animated-visible' data-nekoanim='fadeInUp' data-nekodelay='10' style={{ 'animation-delay': '10ms;' }}>
-                                <ol class="text-warning" class='breadcrumb'>
-                                    <li>
-                                        <Link class="text-warning" aria-current="page" to='/'><h4>Accueil/ </h4></Link>
-                                    </li>
-                                    <li class='active text-muted' ><h4>Activités</h4></li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <div class="container centerElements    ">
+            <div style={{marginLeft:'9%'}}>
+                <h1 className='title_spec' style={{textAlign:'center'}}>  <strong> VOTRE OBJECTIF. <br/> VOTRE PARCOURS <br/> D'ENTRAÎNEMENT.</strong></h1>
+                <div class="container centerElements"   >
                     <Carousel className="miniImages">
                         <div>
-                            <img src=" http://fr.web.img3.acsta.net/newsv7/19/02/14/10/38/5992914.jpg" />
-                            <p className="legend font-weight-bold">Dance classique</p>
-                        </div>
-                        <div>
-                            <img src="https://d2l0wy9lsui5uy.cloudfront.net/c/u/f67894297b6134a6b759b3a9ec15b6cb/2018/06/26064759/y3.jpg" />
+                            <img src="https://images.contentstack.io/v3/assets/blt45c082eaf9747747/blt5447e7b46839ff81/5de0b8057fff4c7c41858865/FLO_BODYCUES_HEAD.jpg?format=pjpg&auto=webp&fit=crop&quality=76&width=1232&height=496" />
                             <p className="legend font-weight-bold">Yoga</p>
                         </div>
                         <div>
-                            <img src="http://www.equipement-fitness-musculation.com/wp-content/uploads/2017/04/gym.jpg" />
+                            <img src=" https://images.contentstack.io/v3/assets/blt45c082eaf9747747/blt840754841e1937d1/5dfcb4ea028cba3ef4ec619a/Q1_WONDERBOY_LAUNCH_HEAD.jpg?format=pjpg&auto=webp&fit=crop&quality=76&width=1232&height=496" />
+                            <p className="legend font-weight-bold">Boxing</p>
+                        </div>
+
+                        <div>
+                            <img src="https://images.contentstack.io/v3/assets/blt45c082eaf9747747/blt3c19db5519c8b8c8/5de0b81694fdd576fb3737e9/HIIT_appetite_header.jpg?format=pjpg&auto=webp&fit=crop&quality=76&width=1232&height=496" />
                             <p className="legend font-weight-bold">Fitness</p>
                         </div>
                         <div>
-                            <img src="https://joinfcf.com/wp-content/uploads/2017/08/Zumba.jpg" />
+                            <img src="http://www.jaevi.fr/wp-content/uploads/2018/08/demo-class-banner.jpg" />
                             <h1 className="legend  font-weight-bold"> Zumba</h1>
                         </div>
 
                         <div>
-                            <img src="https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/9/c/a/9cab65eb39_117048_crossfit-moyenne.jpg" />
+                            <img src="https://images.contentstack.io/v3/assets/blt45c082eaf9747747/bltb0fc425dfc160f4f/5de0b8071973b50217e81177/building_to_a_strict_pullup_header.jpg?format=pjpg&auto=webp&fit=crop&quality=76&width=1232&height=496" />
                             <p className="legend font-weight-bold">Crossfit</p>
                         </div>
                         <div>
-                            <img src="https://cache.cosmopolitan.fr/data/photo/w1000_ci/1bi/femme-exercices-fitness.jpg" />
-                            <p className="legend font-weight-bold">Musculation</p>
+                            <img src="https://images.contentstack.io/v3/assets/blt45c082eaf9747747/blt39863d4a751219c8/5de0b83b94fdd576fb373815/Hypertrophy_Header_CUT.JPG?format=pjpg&auto=webp&fit=crop&quality=76&width=1232&height=496" />
+                            <p className="legend font-weight-bold" style={{color:'white'}}>Musculation</p>
                         </div>
                         <div>
-                            <img src="https://static.lexpress.fr/medias_2354/w_480,h_270,c_fill,g_north/v1375956994/natation-muscler-vos-fessiers_1205415.jpg" />
-                            <p className="legend font-weight-bold">Natation</p>
+                            <img src="https://nerds.co/wp-content/uploads/2015/01/La-natation-660x330.jpg" />
+                            <p className="legend font-weight-bold"  style={{color:'white'}}>Natation</p>
                         </div>
                     </Carousel>
                 </div>
